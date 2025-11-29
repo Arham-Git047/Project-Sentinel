@@ -1,0 +1,20 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.backend-warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #dc2626;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 9999;
+}
