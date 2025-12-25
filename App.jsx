@@ -28,7 +28,7 @@ function App() {
     <div className="app">
       {backendStatus === 'disconnected' && (
         <div className="backend-warning">
-          ⚠️ Backend not connected. Please start backend at http://localhost:8000
+          ⚠️ Backend not conected. Please start backend at http://localhost:8000
         </div>
       )}
       <Dashboard />
