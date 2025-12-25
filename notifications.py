@@ -1,3 +1,4 @@
+
 """
 Twilio Notification Service for Project Sentinel
 Handles SMS and WhatsApp alerts for health threats
@@ -333,3 +334,4 @@ Status: Operational"""
 
 # Global notification service instance
 notification_service = TwilioNotificationService()
+
