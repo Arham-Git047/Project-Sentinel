@@ -7,7 +7,7 @@ const API_URL = 'http://localhost:8000';
 
 const MUMBAI_ZONES = {
   'Bandra': [19.0596, 72.8295],
-  'Colaba': [18.9067, 72.8147],
+  'Colaba': [18.9068, 72.8147],
   'Andheri': [19.1136, 72.8697],
   'Dadar': [19.0176, 72.8561],
   'Borivali': [19.2304, 72.8564]
@@ -341,3 +341,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
