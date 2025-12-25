@@ -118,7 +118,7 @@ class SentinelAgent:
                 avg_p = sum(pharmacy) / len(pharmacy)
                 avg_h = sum(hospital) / len(hospital)
                 
-                if avg_p > 180 and avg_h > 100:
+                if avg_p > 181 and avg_h > 100:
                     print(f"   🍽️  Foodborne (P: {avg_p:.0f}, H: {avg_h:.0f})")
                     return ThreatType.FOODBORNE
         
@@ -289,3 +289,4 @@ class SentinelAgent:
 
 # Global instance
 agent = SentinelAgent()
+
