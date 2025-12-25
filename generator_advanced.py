@@ -1,7 +1,7 @@
 """
 Advanced Data Generator for Project Sentinel
 ✅ FIXED: Wider ranges, EXTREME outbreaks, no false positives
-✅ FIXED: Contamination displays 3% (not 5%)
+
 """
 
 import requests
@@ -237,3 +237,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ Error: {e}")
         sys.exit(1)
+
