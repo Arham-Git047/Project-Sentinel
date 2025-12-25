@@ -1,6 +1,4 @@
 """
-Project Sentinel v3.0 - FastAPI Backend
-✅ FIXED: UNIFORM training distribution (matches generator)
 """
 
 from fastapi import FastAPI, HTTPException
@@ -348,3 +346,4 @@ def get_last_detection():
 if __name__ == "__main__":
     print("\n🚀 Starting Project Sentinel v3.0...")
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
+
