@@ -164,12 +164,7 @@ project-sentinel/
 Elastic Infrastructure: Automatically expands server capacity to handle city-wide data surges instantly.
 -----
 
-## 👥 Team
 
-Built with ❤️ for **MumbaiHacks 2025**
-
-  * **[Arham Kelkar]** - AI Architect & Agent Logic
-  * **[Priyanshu Raj]** - Full Stack Developer (React/FastAPI)
 
 
 -----
