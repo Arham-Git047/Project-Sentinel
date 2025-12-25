@@ -1,6 +1,6 @@
 """
 Data Models for Project Sentinel
-✅ COMPLETE: Includes all required enums and models
+COMPLETE: Includes all required enums and models
 """
 
 from pydantic import BaseModel, Field
@@ -104,3 +104,4 @@ class DetectionResult(BaseModel):
     total_models: int = Field(..., description="Total models in ensemble")
     detection_details: dict = Field(..., description="Per-model detection details")
     threshold_met: bool = Field(..., description="Whether ensemble threshold was met")
+
